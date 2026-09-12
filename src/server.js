@@ -1,7 +1,7 @@
 'use strict';
 
 const express = require('express');
-
+const authRouter = require('./auth/router.js');
 const notFoundHandler = require('./error-handlers/404.js');
 const serverErrorHandler = require('./error-handlers/500.js');
 
@@ -12,12 +12,11 @@ app.use(express.json());
 
 // Allow FORM data in req.body
 app.use(express.urlencoded({ extended: true }));
-
+app.use(authRouter);
 app.get('/', (req, res) => {
   res.status(200).send('Server is working');
 });
 
-// Authentication router will be added here later.
 
 // Handle unknown routes
 app.use(notFoundHandler);
