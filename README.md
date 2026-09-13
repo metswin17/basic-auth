@@ -84,5 +84,5 @@ Deployment URL will be added after the application is deployed.
 
 ## Pull Request
 
-Merged pull request link will be added after the dev branch is merged into main.
+Pull Request #1: https://github.com/metswin17/basic-auth/pull/1
 
