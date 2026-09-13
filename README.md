@@ -80,7 +80,9 @@ AI assistance was used to help structure the tests and explain their behavior. T
 
 ## Deployment
 
-Deployment URL will be added after the application is deployed.
+Live application:
+
+https://basic-auth-vrh4.onrender.com
 
 ## Pull Request
 
